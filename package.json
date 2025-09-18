@@ -1,0 +1,14 @@
+{
+  "name": "mixfinder-plus",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/mixfinder-plus.js",
+  "scripts": {
+    "mix": "node src/mixfinder-plus.js",
+    "mix:csv": "node src/mixfinder-plus.js --csv data/resultados.csv"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
