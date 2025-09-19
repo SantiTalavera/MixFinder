@@ -4,22 +4,40 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@/components/*": ["./src/components/*"],
-      "@/screens/*": ["./src/screens/*"],
-      "@/lib/*": ["./src/lib/*"],
-      "@/api/*": ["./src/api/*"],
-      "@/auth/*": ["./src/auth/*"],
-      "@/features/*": ["./src/features/*"],
-      "@/state/*": ["./src/state/*"],
-      "@/types/*": ["./src/types/*"],
-      "@/theme/*": ["./src/theme/*"]
+      "@/*": [
+        "./src/*"
+      ],
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/screens/*": [
+        "./src/screens/*"
+      ],
+      "@/lib/*": [
+        "./src/lib/*"
+      ],
+      "@/api/*": [
+        "./src/api/*"
+      ],
+      "@/auth/*": [
+        "./src/auth/*"
+      ],
+      "@/features/*": [
+        "./src/features/*"
+      ],
+      "@/state/*": [
+        "./src/state/*"
+      ],
+      "@/types/*": [
+        "./src/types/*"
+      ],
+      "@/theme/*": [
+        "./src/theme/*"
+      ]
     }
   },
   "include": [
     "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "**/*.tsx"
   ]
 }
